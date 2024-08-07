@@ -1,6 +1,8 @@
 package main
 
-import "bash_go/syntax/funcs"
+import (
+	"bash_go/syntax/control"
+)
 
 func main() {
 
@@ -15,5 +17,7 @@ func main() {
 	// funcs.DeferClosure2()
 	// funcs.DeferClosureLoopV1()
 	// funcs.DeferClosureLoopV2()
-	funcs.DeferClosureLoopV3()
+	// funcs.DeferClosureLoopV3()
+	// control.ForArr()
+	control.ForMap()
 }
